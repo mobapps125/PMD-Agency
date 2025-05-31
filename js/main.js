@@ -211,7 +211,7 @@
               spaceBetween: 20,
             },
             1200: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 24,
             },
             1800: {
@@ -506,3 +506,41 @@
     metech.init();
   });
 })(jQuery);
+
+
+
+
+
+
+
+// var swiper = new Swiper(".myheroSwiper", {
+//   spaceBetween: 30,
+//   effect: "fade",
+//   loop: true, // Infinite loop
+//   autoplay: {
+//     delay: 2500, // 3000ms = 3 seconds
+//     disableOnInteraction: false, // Keeps autoplay after user interactions
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+// });
+
+var swiper = new Swiper(".myheroSwiper", {
+  spaceBetween: 30,
+  effect: "fade",
+  loop: true,
+  speed: 2000, // Transition duration in ms (1000ms = 1 second)
+  fadeEffect: {
+    crossFade: true, // Smooth fade between slides
+  },
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});

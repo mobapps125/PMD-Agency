@@ -34,7 +34,7 @@
 }
 .metech-quote:before {
   content: "\e926";
-  color: #ff6a16;
+  color: #5bb6b6;
 }
 .metech-check-mark:before {
   content: "\e924";
@@ -56,7 +56,7 @@
 }
 .metech-wordPress:before {
   content: "\e909";
-  color: #ff6a16;
+  color: #5bb6b6;
 }
 .metech-angular .path1:before {
   content: "\e90a";
@@ -88,7 +88,7 @@
 }
 .metech-elementor:before {
   content: "\e911";
-  color: #ff6a16;
+  color: #5bb6b6;
 }
 .metech-html .path1:before {
   content: "\e912";
